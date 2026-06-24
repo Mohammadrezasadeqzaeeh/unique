@@ -17,7 +17,7 @@ def finish(number, count):
     print(f"my numbers was {number} and you found it in {count}")
     print()
     answer = input("do you want to play again (Y/N) ")
-    if answer.upper() == 'Y':
+    if answer.upper() in ['Y', 'YES', 'ARE', 'BALE']
         return True
     else:
         return False
